@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bigrabozo-redteam_jd470"
+name = "bigrabozo-inference_rate_limit_queue_dedup"
 version = "0.1.0"
 description = "对内容做归一化与分片比对，找出红队与内容安全工程师·推理服务的限流与排队上的重复项并按相似度归并"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://bigrabozo.github.io"
-Repository = "https://github.com/bigrabozo/redteam_jd470"
-Issues = "https://github.com/bigrabozo/redteam_jd470/issues"
+Repository = "https://github.com/bigrabozo/inference_rate_limit_queue_dedup"
+Issues = "https://github.com/bigrabozo/inference_rate_limit_queue_dedup/issues"
 
 [project.scripts]
-redteam_jd470 = "redteam_jd470:main"
+inference_rate_limit_queue_dedup = "inference_rate_limit_queue_dedup:main"
 
 [tool.setuptools]
-py-modules = ["redteam_jd470"]
+py-modules = ["inference_rate_limit_queue_dedup"]
